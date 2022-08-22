@@ -62,7 +62,7 @@ body{
 .hero-body{
     width: 100%;
     height: 1750px;
-    background-color: wheat;
+    /* background-color: wheat; */
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ body{
     font-size: 30px;
 }
 .close-text{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
     height: 150px;
     margin-top: 50px;

@@ -183,7 +183,7 @@ footer{
     .title{
         width: 35%;
     }
-    .title h3{
+    .title h4{
         font-size: 20px;
     }
     .links a{
@@ -214,5 +214,49 @@ footer{
         margin-top: 40px;
         font-size: 12px;
         row-gap: 15px;
+    }
+}
+@media (max-width:865px) {
+    .title h4{
+        font-size: 17px;
+    }
+    .links a{
+        font-size: 8px;
+    }
+    .hero-body{
+        height: 900px;
+        font-size: 9px;
+        row-gap: 20px;
+    }
+    .vision{
+        height: 22%;
+    }
+    .vis-text{
+        row-gap: 5px;
+    }
+    .stats{
+        height: 100px;
+    }
+    .statbx{
+        height: 80%;
+        row-gap: 5px;
+        font-size: 8px;
+    }
+    .close-text{
+        height: 70px;
+        font-size: 8px;
+        margin-top: 30px;
+    }
+    footer{
+        height: 150px;
+        margin-top: 30px;
+        font-size: 10px;
+        row-gap: 15px;
+    }
+    .email-send input{
+        font-size: 7px;
+    }
+    .email-send button{
+        font-size: 7px;
     }
 }

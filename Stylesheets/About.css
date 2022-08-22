@@ -176,3 +176,43 @@ footer{
     border-radius: 2px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+@media (max-width:1073px) {
+    .nav{
+        height: 65px;
+    }
+    .title{
+        width: 35%;
+    }
+    .title h3{
+        font-size: 20px;
+    }
+    .links a{
+        font-size: 12px;
+    }
+    .hero-body{
+        height: 1250px;
+        font-size: 13px;
+        row-gap: 12px;
+    }
+    .vision{
+        height: 25%;
+    }
+    .stats{
+        height: 150px;
+    }
+    .statbx{
+        height: 80%;
+        row-gap: 10px;
+        font-size: 13px;
+    }
+    .close-text{
+        height: 100px;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    footer{
+        margin-top: 40px;
+        font-size: 12px;
+        row-gap: 15px;
+    }
+}

@@ -62,7 +62,7 @@ body{
 .hero-body{
     width: 100%;
     height: 1750px;
-    /* background-color: wheat; */
+    background-color: wheat;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ body{
     font-size: 30px;
 }
 .close-text{
-    /* background-color: aqua; */
+    background-color: aqua;
     width: 100%;
     height: 150px;
     margin-top: 50px;
@@ -258,5 +258,112 @@ footer{
     }
     .email-send button{
         font-size: 7px;
+    }
+}
+@media (max-width:659px) {
+    .title{
+        width: 40%;
+    }
+    .title h4{
+        font-size: 13px;
+    }
+    .links{
+        width: 35%;
+    }
+    .links a{
+        font-size: 7px;
+    }
+    .hero-body{
+        height: 800px;
+        font-size: 6px;
+        row-gap: 10px;
+        margin-top: 10px;
+    }
+    .stats{
+        height: 90px;
+        margin-top: 50px;
+    }
+    .statbx{
+        height: 80%;
+        row-gap: 5px;
+        font-size: 7px;
+    }
+    .statbx i{
+        font-size: 17px;
+    }
+    .close-text{
+        height: 70px;
+        font-size: 7px;
+        margin-top: 20px;
+    }
+    footer{
+        height: 100px;
+        margin-top: 30px;
+        font-size: 6px;
+        row-gap: 10px;
+    }
+    .email-send input{
+        font-size: 5px;
+    }
+    .email-send button{
+        font-size: 5px;
+    }
+}
+@media (max-width:443px) {
+    .title h4{
+        font-size: 9px;
+    }
+    .links a{
+        font-size: 5px;
+    }
+    .hero-body{
+        height: 500px;
+        font-size: 5px;
+        row-gap: 10px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:395px) {
+    .title h4{
+        font-size: 7px;
+    }
+    .links a{
+        font-size: 4px;
+    }
+    .hero-body{
+        height: 400px;
+        font-size: 3px;
+        row-gap: 0px;
+    }
+    .stats{
+        height: 80px;
+        margin-top: 20px;
+    }
+    .statbx{
+        width: 25%;
+        height: 80%;
+        row-gap: 3px;
+        font-size: 5px;
+    }
+    .statbx i{
+        font-size: 15px;
+    }
+    .close-text{
+        height: 70px;
+        font-size: 4px;
+        margin-top: 20px;
+        row-gap: 4px;
+    }
+    footer{
+        height: 80px;
+        margin-top: 20px;
+        font-size: 4px;
+        row-gap: 5px;
+    }
+    .email-send input{
+        font-size: 3px;
+    }
+    .email-send button{
+        font-size: 3px;
     }
 }
